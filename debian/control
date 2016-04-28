@@ -20,6 +20,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/grantleetheme.git
 Package: libkf5grantleetheme5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5libkdepim5 (<= 4:16.04)
+Replaces: libkf5libkdepim5 (<= 4:16.04)
 Description: KDE PIM grantlee theme support - library
  This library provides the grantlee theme support for KDE PIM.
  .
@@ -28,6 +30,8 @@ Description: KDE PIM grantlee theme support - library
 Package: libkf5grantleetheme-plugins
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5libkdepim5 (<= 4:16.04)
+Replaces: libkf5libkdepim5 (<= 4:16.04)
 Description: KDE PIM grantlee theme support - plugins
  This library provides the grantlee theme support for KDE PIM.
  .
