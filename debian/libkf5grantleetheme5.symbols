@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 15.12.0 amd64
-libKF5GrantleeTheme.so.5 libkf5grantleethemee5 #MINVER#
+libKF5GrantleeTheme.so.5 libkf5grantleetheme5 #MINVER#, libkf5grantleetheme-plugins
  _ZN13GrantleeTheme12ThemeManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.12.0
  _ZN13GrantleeTheme12ThemeManager11qt_metacastEPKc@Base 15.12.0
  _ZN13GrantleeTheme12ThemeManager12setThemeMenuEP11KActionMenu@Base 15.12.0
