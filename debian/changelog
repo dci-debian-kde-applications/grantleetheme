@@ -1,10 +1,7 @@
-libkf5grantleetheme (16.04.1-1~1.gbpdb7235) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @db7235a21df582d7049810fb1a2da851731c1348 **
+libkf5grantleetheme (16.04.1-1) experimental; urgency=medium
 
   * Initial release.
   * Inject the plugins dependency through the symbols file
   * Add missing breaks replaces
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:00:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 00:38:25 +0200
