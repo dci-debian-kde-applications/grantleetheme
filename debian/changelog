@@ -1,3 +1,9 @@
+libkf5grantleetheme (16.04.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 16:31:53 +0200
+
 libkf5grantleetheme (16.04.1-1) experimental; urgency=medium
 
   * Initial release.
