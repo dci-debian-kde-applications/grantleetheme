@@ -1,10 +1,8 @@
-libkf5grantleetheme (16.04.2-1~1.gbp503c85) UNRELEASED; urgency=medium
+libkf5grantleetheme (16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @503c8574c40dd34234f6becf36608f2aaf067fc2 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 06:00:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 20:57:45 +0200
 
 libkf5grantleetheme (16.04.1-2) unstable; urgency=medium
 
