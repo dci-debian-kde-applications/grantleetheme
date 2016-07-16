@@ -1,10 +1,12 @@
-libkf5grantleetheme (16.04.3-1~1.gbpb3e1c3) UNRELEASED; urgency=medium
+libkf5grantleetheme (16.04.3-1~2.gbp6b7d94) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b3e1c3776b1263143b10fdd383b259d48e3671a4 **
+  ** SNAPSHOT build @6b7d942c6e64d63e68468ca1b34e118979142836 **
 
   * UNRELEASED
+  * Ignore grantlee version.
+    Thanks to Lucas Nussbaum for the report (Closes: 830441)
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 00:00:42 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 16 Jul 2016 18:00:12 +0200
 
 libkf5grantleetheme (16.04.2-1) unstable; urgency=medium
 
