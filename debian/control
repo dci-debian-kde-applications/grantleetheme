@@ -41,9 +41,9 @@ Package: libkf5grantleetheme-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5grantleetheme5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
-         ${shlibs:Depends},
-         qtbase5-dev (>= 5.4.0~)
+         ${shlibs:Depends}
 Description: KDE PIM grantlee theme support - devel files
  This library provides the grantlee theme support for KDE PIM.
  .
