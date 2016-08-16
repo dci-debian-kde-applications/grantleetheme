@@ -22,6 +22,7 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkf5libkdepim5 (<= 4:16.04)
 Replaces: libkf5libkdepim5 (<= 4:16.04)
+Recommends: libkf5grantleetheme-plugins (= ${binary:Version})
 Description: KDE PIM grantlee theme support - library
  This library provides the grantlee theme support for KDE PIM.
  .
