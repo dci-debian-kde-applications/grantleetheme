@@ -1,3 +1,11 @@
+libkf5grantleetheme (16.08.0-1~1.gbp894453) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @894453905cfe591e5be63dae6fab68c9eedb9863 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:01:34 +0200
+
 libkf5grantleetheme (16.04.3-1) unstable; urgency=medium
 
   * Ignore grantlee version.
