@@ -1,12 +1,13 @@
-libkf5grantleetheme (16.08.0-1~2.gbpf6e890) UNRELEASED; urgency=medium
+libkf5grantleetheme (16.08.1-1~1.gbp40d535) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f6e8904e062a5c1ea298fecddde6cccdb7e536f0 **
+  ** SNAPSHOT build @40d535d561608ae6ee60fcefdcb33b0febee7410 **
 
   * Update build-deps and deps with the info from cmake
   * Update symbols files
   * Add breaks related to a minor abi change
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 29 Aug 2016 09:13:58 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:00:34 +0200
 
 libkf5grantleetheme (16.04.3-1) unstable; urgency=medium
 
