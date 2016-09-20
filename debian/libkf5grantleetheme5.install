@@ -1,3 +1,4 @@
 etc/xdg/grantleetheme.renamecategories
+etc/xdg/grantleetheme.categories
 usr/lib/*/libKF5GrantleeTheme.so.5
 usr/lib/*/libKF5GrantleeTheme.so.5.*
