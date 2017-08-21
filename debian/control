@@ -11,26 +11,23 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5iconthemes-dev (>= 5.23.0~),
                libkf5newstuff-dev (>= 5.23.0~),
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.5.0~)
+               qtbase5-dev (>= 5.5.0~),
 Standards-Version: 4.0.1
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/grantleetheme.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/grantleetheme.git
 
-Package: libkf5grantleetheme5
+Package: libkf5grantleetheme-dev
+Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: akregator (<= 4:16.08),
-        kontact (<= 4:16.08),
-        libkf5libkdepim5 (<= 4:16.04),
-        libkf5messageviewer5 (<= 4:16.08),
-        ${kde-l10n:all}
-Replaces: libkf5libkdepim5 (<= 4:16.04), ${kde-l10n:all}
-Recommends: libkf5grantleetheme-plugins (= ${binary:Version})
-Description: KDE PIM grantlee theme support - library
+Depends: libkf5grantleetheme5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.5.0~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KDE PIM grantlee theme support - devel files
  This library provides the grantlee theme support for KDE PIM.
  .
- This package provides the shared libraries.
+ This package provides the development files.
 
 Package: libkf5grantleetheme-plugins
 Architecture: any
@@ -42,14 +39,17 @@ Description: KDE PIM grantlee theme support - plugins
  .
  This package provides the plugins distributed with the library.
 
-Package: libkf5grantleetheme-dev
-Section: libdevel
+Package: libkf5grantleetheme5
 Architecture: any
-Depends: libkf5grantleetheme5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.5.0~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: KDE PIM grantlee theme support - devel files
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: akregator (<= 4:16.08),
+        kontact (<= 4:16.08),
+        libkf5libkdepim5 (<= 4:16.04),
+        libkf5messageviewer5 (<= 4:16.08),
+        ${kde-l10n:all},
+Replaces: libkf5libkdepim5 (<= 4:16.04), ${kde-l10n:all}
+Recommends: libkf5grantleetheme-plugins (= ${binary:Version})
+Description: KDE PIM grantlee theme support - library
  This library provides the grantlee theme support for KDE PIM.
  .
- This package provides the development files.
+ This package provides the shared libraries.
