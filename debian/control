@@ -3,15 +3,15 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.12~),
+Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.23.0~),
-               libgrantlee5-dev (>= 5.0.0~),
-               libkf5i18n-dev (>= 5.23.0~),
-               libkf5iconthemes-dev (>= 5.23.0~),
-               libkf5newstuff-dev (>= 5.23.0~),
+               extra-cmake-modules (>= 5.35.0~),
+               libgrantlee5-dev (>= 5.1~),
+               libkf5i18n-dev (>= 5.35.0~),
+               libkf5iconthemes-dev (>= 5.35.0~),
+               libkf5newstuff-dev (>= 5.35.0~),
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.5.0~),
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.0.1
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/grantleetheme.git
@@ -21,7 +21,7 @@ Package: libkf5grantleetheme-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5grantleetheme5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.5.0~),
+         qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
          ${shlibs:Depends},
 Description: KDE PIM grantlee theme support - devel files
