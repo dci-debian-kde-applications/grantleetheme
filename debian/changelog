@@ -1,3 +1,9 @@
+libkf5grantleetheme (17.08.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (17.08.0)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 21 Aug 2017 11:21:52 +0200
+
 libkf5grantleetheme (17.08.0-0neon) xenial; urgency=medium
 
   * New release
