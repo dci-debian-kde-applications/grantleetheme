@@ -32,7 +32,13 @@ Description: KDE PIM grantlee theme support - devel files
 Package: libkf5grantleetheme-plugins
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5libkdepim5 (<= 4:16.04)
+Breaks: akregator (<< 4:17.08),
+        kaddressbook (<< 4:17.08),
+        kdepim-addons (<< 17.08),
+        kontact (<< 4:17.08),
+        libkf5kaddressbookgrantlee5 (<< 4:17.08),
+        libkf5libkdepim5 (<= 4:16.04),
+        libkf5messageviewer5 (<< 4:17.08),
 Replaces: libkf5libkdepim5 (<= 4:16.04)
 Description: KDE PIM grantlee theme support - plugins
  This library provides the grantlee theme support for KDE PIM.
@@ -42,11 +48,14 @@ Description: KDE PIM grantlee theme support - plugins
 Package: libkf5grantleetheme5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: akregator (<= 4:16.08),
+Breaks: akregator (<< 4:17.08),
+        kaddressbook (<< 4:17.08),
         kde-l10n-ast (<< 4:17.03.90-0~),
-        kontact (<= 4:16.08),
+        kdepim-addons (<< 17.08),
+        kontact (<< 4:17.08),
+        libkf5kaddressbookgrantlee5 (<< 4:17.08),
         libkf5libkdepim5 (<= 4:16.04),
-        libkf5messageviewer5 (<= 4:16.08),
+        libkf5messageviewer5 (<< 4:17.08),
         ${kde-l10n:all},
 Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
           libkf5libkdepim5 (<= 4:16.04),
