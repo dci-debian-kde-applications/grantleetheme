@@ -20,6 +20,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/grantleetheme.git
 Package: libkf5grantleetheme-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libkf5grantleetheme5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
@@ -31,6 +32,7 @@ Description: KDE PIM grantlee theme support - devel files
 
 Package: libkf5grantleetheme-plugins
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: akregator (<< 4:17.08),
         kaddressbook (<< 4:17.08),
@@ -47,6 +49,7 @@ Description: KDE PIM grantlee theme support - plugins
 
 Package: libkf5grantleetheme5
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: akregator (<< 4:17.08),
         kaddressbook (<< 4:17.08),
