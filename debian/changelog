@@ -3,6 +3,7 @@ libkf5grantleetheme (17.08.3-1) UNRELEASED; urgency=medium
   [ Sandro Knauß ]
   * New upstream release (17.08.3).
   * Add Mulit-Arch hints.
+  * Bump Standards-Version to 4.1.2 ( No changes needed).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 11 Dec 2017 21:10:17 +0100
 
