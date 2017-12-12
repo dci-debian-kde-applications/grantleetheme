@@ -53,16 +53,13 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: akregator (<< 4:17.08),
         kaddressbook (<< 4:17.08),
-        kde-l10n-ast (<< 4:17.03.90-0~),
         kdepim-addons (<< 17.08),
         kontact (<< 4:17.08),
         libkf5kaddressbookgrantlee5 (<< 4:17.08),
         libkf5libkdepim5 (<= 4:16.04),
         libkf5messageviewer5 (<< 4:17.08),
         ${kde-l10n:all},
-Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
-          libkf5libkdepim5 (<= 4:16.04),
-          ${kde-l10n:all},
+Replaces: libkf5libkdepim5 (<= 4:16.04), ${kde-l10n:all}
 Recommends: libkf5grantleetheme-plugins (= ${binary:Version})
 Description: KDE PIM grantlee theme support - library
  This library provides the grantlee theme support for KDE PIM.
